@@ -1,0 +1,624 @@
+body {
+	margin:0px;	
+	font-family: 'Open Sans', sans-serif;
+	
+}
+@font-face{
+	font-size:10px;
+}
+.clear{
+	clear:both;
+}
+.full-width{
+	width:100%;
+}
+.pull-left{
+	float: left;
+}
+.pull-right{
+	float: right;
+}
+.text-transform-U{
+	text-transform: uppercase;
+}
+.text-transform-C{
+	text-transform: capitalize;
+}
+.color-purple{
+	color:#8d81ac;
+}
+.button-color{
+	background: #8d81ac;
+}
+.content{
+	height:auto;
+	width:1100px;
+	margin:0px auto;
+}
+
+#forkApp{
+	height:1000px;
+	background:url(../fork-images/img-decor-01.jpg) center center no-repeat;
+	background:cover;
+
+}
+.collapse{
+	width:100%;
+	height:100px;
+	background:white;
+	position:fixed;
+	top:0px;
+	right:0px;	
+}
+.logoSide{	
+	margin-top:25px;
+	width:200px;
+	height:40px;		
+	background-image:url(../fork-images/logo-forkio.svg);
+	background-repeat: no-repeat;
+	margin-left: 85px;
+	
+}
+.navSide ul{	
+	height:40px;
+	padding: 40px;
+	text-transform: capitalize;
+	
+}
+.navSide ul li{	
+	margin-right:30px;
+
+}
+.navSide ul li a{
+	text-decoration: none;
+	font-size:1.2em;
+	font-weight:bold;
+	
+}
+.navSide ul li a:hover{
+	cursor: pointer;
+	color: #4D0275;
+}
+.navSide button{	
+	color: white;
+	width:150px;
+	height:40px;	
+	border:1px solid #8d81ac;
+	border-radius:35px;
+	margin-top: 30px;
+	margin-right:85px;
+}
+.navSide button:hover{
+	background: #4D0275;
+	cursor: pointer;
+}
+.forkTitle {
+	text-align: center;	
+	margin-top:200px;
+}
+.forkTitle h1{
+	color:white;
+	width:400px;	
+	font-size: 5em;	
+	text-align: center;	
+	margin-bottom: 20px;
+	margin-left: 350px;
+
+}
+.forkTitle p{	
+	font-size:1.5em;
+	margin-left: 280px;
+}
+.forkTitle span{	
+    width:300px;	
+	color:#494654;
+	margin-left:290px;
+	font-size:1.5em;	
+}
+.downloadForFreeNow button{
+	width:390px;
+	height:60px;
+	border:1px solid #8d81ac;	
+	color:white;
+	border-radius: 35px;
+	font-size: 1.5em;
+	font-weight: bold;
+	position:relative;
+	top:15px;
+	
+}
+.downloadForFreeNow button:hover{
+	background: #4D0275;
+	cursor: pointer;
+}
+.downloadForFreeNow h6{
+	text-align: center;
+	width:1000px;
+	margin-top:30px;
+	margin-left:50px;
+	margin-right: 300px;	
+}
+
+#revolution{
+	height:300px;
+	text-align: center;
+	background:white;
+
+}
+.revolutionTitle h1{
+	font-size: 3em;
+	width: 100%;
+	margin-top: 60px;
+	font-weight: bold;
+	color:#4D0275; 
+}
+.revolutionSubTitle p{
+	font-size: 1.5em;
+	margin-top: 40px;
+}
+.socialRating{
+	margin-top:40px;
+
+}
+#customise{	
+	height:800px;
+	background:#f4f4f4;	
+}
+.leftSide{
+	margin-top: 80px;	
+	width:calc(100% - 550px);	
+}
+.leftSide img{
+	margin-right: 30px;
+	margin-bottom:70px;
+}
+.leftSide h1{
+	margin-bottom:30px;
+	line-height: 1.7px;
+	font-weight: bold;
+}
+
+.leftSideFirstLine, .leftSideSecondLine,  .leftSideThirdLine, .leftSideFourthLine{
+	width:550px;
+	
+}
+.rightSide{
+	margin-top: 40px;
+	width:calc(100% - 550px);
+	font-size:3em;	
+	font-weight:bold;
+}
+.rightSide img{
+	width:calc(100% + 136px);
+	height: 780px;	
+}
+#testimonials{
+	height:500px;
+	background:white;
+	text-align: center;
+}
+
+#testimonials  img{
+	border-radius: 40px;
+	margin-left: 400px;
+	margin-top:90px;
+}
+#testimonials h1{
+	text-align: center;
+	margin-right: 420px;
+	padding-top: 100px;
+	font-size: 1.5em;
+	
+}
+#testimonials span{
+	font-size: 1.5em;
+	float: left;
+	margin-left: 35px;
+}
+#testimonials p{
+	margin-top: 100px;
+	padding: 0px 100px 0px;
+	font-size: 1.3em;
+}
+.topLine-first{
+	text-align: center;
+	width:850px;
+	border-top: 1px solid black;
+	opacity:0.2;
+	margin-left:140px;
+	margin-top:50px;
+}
+
+.github button{
+	text-align:center;
+	width:240px;
+	height:50px;
+	border:1px solid #f3f3f3;
+	border-radius: 7px;
+	background:#f3f3f3;
+	margin-right:65px;
+	color: black;
+	margin-left:140px;
+	margin-top: 20px;
+	
+}
+.github h6{
+	margin-top: 20px;
+	margin-left:50px;
+}
+
+.twitter button{
+	text-align:center;
+	margin-left:0px;
+	width:240px;
+	height:50px;
+	border:1px solid #26a6d1;
+	border-radius: 7px;
+	background:#26a6d1;
+	margin-right:65px;
+	color: white;
+	margin-top: 20px;
+}
+.twitter h6{
+	margin-top: 20px;
+	margin-right:60px;
+}
+
+.facebook button{
+	text-align:center;
+	margin-left:0px;
+	width:240px;
+	height:50px;
+	border:1px solid #3b5998;
+	border-radius: 7px;
+	background:#3b5998;
+	color: white;
+	margin-top: 20px;	
+}
+.facebook h6{
+	margin-top: 20px;
+	margin-right:20px;
+}
+
+#aboutFork{
+	height:700px;
+	background:url(../fork-images/img-decor-02.jpg) center center no-repeat;	
+
+}
+#aboutFork h1 {
+	padding-top:100px;
+	color:white;
+	font-size:3em;
+	font-weight:bold;
+	margin-left:200px;
+}
+.aboutBoxes{
+	width:100%;
+	margin-top:100px;
+	
+}
+.aboutBoxes img{
+	margin:0px 70px;
+}
+.aboutBoxes p{
+	margin-top:50px;
+	margin-bottom:50px;
+	width:300px;
+	text-align: center;
+	color: white;
+	font-style: italic;
+}
+.firstLine, .secondLine{
+	
+	display:inline-flex;
+}
+.firstLineLeft, .firstLineCenter, .firstLineRight{
+	width:calc(33.33% - 40px);
+	margin-left:20px;
+	margin-right:20px;
+}
+
+.secondLineLeft, .secondLineCenter, .secondLineRight{
+	width:calc(33.33% - 40px);
+	margin-left:20px;
+	margin-right:20px;
+}
+
+#pricing{
+	height:800px;	
+	background:url(../fork-images/img-decor-03.jpg) center center no-repeat;
+}
+
+.topLine-second{
+	text-align: center;
+	width:900px;
+	margin-left:100px;
+	border-top:1px solid white;
+	opacity:0.3;
+
+}
+#pricing h1{
+    text-align: center;	
+	margin-top: 70px;
+	margin-bottom:125px;
+	color:white;
+	font-weight: bold;
+	font-size:3.5em;
+
+}
+.pricingBox{
+	width:1100px;
+}
+.pricingBox span{
+	color:rgba(255, 255, 255, 0.3);
+	margin-right:5px;
+}
+.pricingBox button{
+	width:170px;
+	height:45px;
+	border:none;
+	background: rgba(255, 255, 255, 0.3);
+	border-radius:20px;
+	margin-top:40px;
+	color:white;
+}
+.pricingBoxUp{
+	width:100%;
+	height:88px;
+	background: rgba(255, 255, 255, 0.2);	
+}
+
+.pricingBoxUp h5{
+	position: relative;
+	top:40px;
+	font-weight: 900;	
+	font-size: 1em;
+}
+
+.pricingBoxFirst, .pricingBoxSecond, .pricingBoxThird{
+	width:calc(25% - 5px);
+	margin-right:5px;
+	height:447px;	
+	background:rgba(255, 255, 255, 0.1);
+	/* opacity:0.3; */
+	text-align: center;
+	color:whitesmoke;	
+}
+.pricingBoxFourth{	
+	width:25%;
+	height:447px;
+	background:rgba(255, 255, 255, 0.1);
+	/* opacity:0.3; */
+	color:whitesmoke;
+	text-align: center;		
+}
+
+.pricingBoxFirst h2{
+	margin-top:40px;
+	font-size:5em;
+	font-weight:900;
+}
+
+.pricingBoxFirst h4{
+	margin-top:10px;
+	color:rgba(255, 255, 255, 0.3);
+}
+.pricingBoxFirst h3{
+	margin-top:30px;
+	font-size:1.2em;
+	margin-bottom:30px;
+}
+
+.pricingBoxSecond h2{
+	margin-top:40px;
+	font-size:5em;
+	font-weight:900;
+}
+.pricingBoxSecond h4{
+	margin-top:10px;
+	color:rgba(255, 255, 255, 0.3);
+}
+.pricingBoxSecond h3{
+	margin-top:30px;
+	font-size:1.2em;
+	line-height:25px;
+}
+.pricingBoxThird h2{
+	margin-top:40px;
+	font-size:5em;
+	font-weight:900;
+}
+.pricingBoxThird h4{
+	margin-top:10px;
+	color:rgba(255, 255, 255, 0.3);
+}
+.pricingBoxThird h3{
+	margin-top:30px;
+	font-size:1.2em;
+	line-height:25px;
+}
+
+.pricingBoxFourth h2{
+	margin-top:40px;
+	font-size:5em;
+	font-weight:900;
+}
+
+.pricingBoxFourth h4{
+	margin-top:10px;
+	color:rgba(255, 255, 255, 0.3);
+}
+.pricingBoxFourth h3{
+	margin-top:30px;
+	font-size:1.2em;
+	line-height:25px;
+}
+#pricing p{
+	opacity: 0.3;
+}
+#subscribe{
+	width:100%;
+	background:#f4f4f4;
+}
+.subscribeLeft{
+	float: left;
+	width:50%;	
+	background:#f4f4f4;
+	margin-top:50px;
+	margin-bottom: 50px;
+}
+.subscribeLeft h1{
+	font-weight: bold;
+	font-size:2em;
+
+}
+.subscribeRight{
+	float: left;
+	width:50%;	
+	background:#f4f4f4;
+	margin-top:50px;
+	margin-bottom: 50px;
+}
+.subscribeRight input{
+	width:300px;
+	height:38px;
+	padding-left:30px;
+	border:1px solid white;
+	border-radius: 35px;
+	margin-right: 20px;
+}
+.subscribeRight button{
+	width:150px;
+	height:40px;
+	border:1px solid #8d81ac;
+	border-radius: 35px;
+	color: white;
+	font-weight: bold;
+}
+#news{
+	height:700px;
+	background:white;
+}
+.newsBox{
+	width:100%;
+}
+.newsLeftTitle h1, .newsCenterTitle h1, .newsRightTitle h1{
+	font-size:2.2em;
+	font-weight: bold;
+	padding-top:60px;
+	padding-bottom:60px;
+}
+
+.newsLeft  h2, .newsCenter h2, .newsRight h2{
+	font-size:1.2em;
+	font-weight: bold;
+	color:purple;
+	margin-bottom: 15px;
+}
+.newsLeft p, .newsCenter p, .newsRight p{
+	font-size:0.8em;
+	color:#8d81ac;
+	margin-bottom: 20px;
+}
+.goToReleaseLog, .goToMarketplace, .goToBlog{
+	width:170px;	
+	border:1px solid #f4f4f4;
+	border-radius: 2px;
+	background-color:#f4f4f4;
+	margin-top:50px;
+	cursor: pointer;
+	
+}
+.goToReleaseLog:hover, .goToMarketplace:hover, .goToBlog:hover{
+	background-color:darkgray;
+}
+.goToReleaseLog h1, .goToMarketplace h1, .goToBlog h1{
+	padding:10px 20px 10px;
+	color:purple;
+	font-weight: bold;
+}
+.newsLeft{
+	width:calc(33.33% - 20px);
+	margin-right: 20px;
+}
+.newsCenter{
+	width:calc(33.33% - 20px);
+	margin-right:20px;
+}
+.newsRight{
+	width:calc(33.33% - 20px);
+	margin-right:20px;
+}
+#footer{
+	height:250px;
+	background:white;
+}
+.footerTopBox{
+	width:1100px;
+	text-align: center;	
+	border-top:1px solid black;
+	margin-bottom:70px;
+	opacity:0.3;
+
+}
+.forkioLogo{
+	width:200px;
+	height:40px;		
+	background-image:url(../fork-images/logo-forkio.svg);
+	background-repeat: no-repeat;
+}
+.forkio p{
+	font-size: 1em;
+	color: purple;
+	padding:20px 20px 0px 0px;
+}
+.forkio{
+	width:380px;
+	height:320px;
+	float: left;	
+}
+
+.navigation{
+	width:210px;
+	height:320px;
+	float: left;	
+}
+.navigation h1{
+	margin-bottom:40px;
+	font-weight: bold;
+}
+.navigation li{
+	margin-bottom:10px;
+	font-size:1.2em;
+}
+.contact{
+	width:300px;
+	height:320px;
+	float: left;
+}
+.phone h1{
+	font-size: 2em;
+	font-weight: bold;
+	margin-bottom: 30px;
+}
+.phone h2{
+	margin-bottom: 40px;
+	font-weight: bold;
+}
+.address h1{
+	font-weight: bold;
+}
+.address address{
+	margin-top: 20px;
+	
+}
+.info{
+	width:210px;
+	height:320px;
+	float: left;
+}
+.info h1{
+	font-size: 1em;
+	font-weight: bold;
+	margin-bottom: 40px;
+}
